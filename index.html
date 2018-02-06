@@ -1,0 +1,115 @@
+<!DOCTYPE htmnl>
+<html lang ="en us">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector</title>
+    <link rel="styelsheet" href="assets/css/reset.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <h1>Crystal Collector!</h1>
+
+                        <section>
+
+                            <p>
+                                You will be given a random number at the start of the game.
+                            </p>
+                            <p>
+                                There are four crystals below. By clicking of the crystal you will add a specific amount of points to your total score.
+                            </p>
+                            <p>
+                                You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+                            </p>
+                            <p>
+                                The value of each crystal is hidden from you until you click on it.
+                            </p>
+                            <p>
+                                Each time when the game starts, the game will change the value of each crystal.
+                            </p>
+                        </section>
+            
+            </div>
+        
+        </div>
+
+        <div class = "row">
+
+            <div class = "col-sm-3">
+
+                    <section class="RandomNumber">
+
+                        <h2 id = "randomNumber"></h2>
+
+                    </section>
+            </div>
+            <div class = "col-sm-3">
+            
+            <section class="WinsLoses">
+
+                <p>WINS:</p>
+                <p id = "wins"></p>
+                <br><br>
+                <p>LOSES:</p>
+                <p id = "loses"></p>
+
+            </div>
+
+        </div>
+
+        <div class = "row">
+
+                <div class = "col-sm-8">
+
+                    <img id = "blue" class = "jewels" src="https://raw.githubusercontent.com/jahdasha/crystal-game/master/assets/images/blue.png">
+                
+
+                    <img id "green" class = "jewels" src="https://raw.githubusercontent.com/jahdasha/crystal-game/master/assets/images/green.png">
+
+
+                    <img id = "red" class = "jewels" src = "https://raw.githubusercontent.com/jahdasha/crystal-game/master/assets/images/red.png">
+
+                    <img id = "yellow" class= "jewels" src = "https://raw.githubusercontent.com/jahdasha/crystal-game/master/assets/images/yellow.png">
+                
+                </div>
+            </div>
+        <div class="row">
+            
+            <div class="col-sm-5">
+
+                <section class="total-score">
+
+                <p>Your total score: </p>
+                <p id = "yourScore"></p>
+                </section>
+            
+            </div>
+        </div>
+
+
+                
+                <script src="http://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous">
+                </script>
+
+                <script type = "text/javascript" src="assets/javascript/game.js">
+                </script>
+
+
+    </div>
+
+
+        
+
+
+
+</body>
+</html>

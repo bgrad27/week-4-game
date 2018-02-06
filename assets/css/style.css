@@ -1,1 +1,49 @@
-hey
+body{
+    background-image: url(https://i.ytimg.com/vi/Zcssn-oJ9uE/maxresdefault.jpg);
+}
+
+h1{
+    background-color: orange;
+    padding: 20px;
+    color: white;
+}
+
+section{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+}
+
+.panel-heading{
+    color: blue;
+    color: blue;
+}
+
+.RandomNumber{
+    padding: 20px;
+ 
+}
+
+.WinsLoses{
+    color: white;
+    float: left;
+    padding: 20px;
+    margin-left: 0;
+}
+
+img{
+    float: left;
+    margin: 5px;
+    height: 60px;
+}
+
+.total-score{
+    background-color: green;
+    color:purple;
+}
+
+.total-scorebox{
+    background-color: green;
+    color: purple;
+    padding: 45px;
+}
