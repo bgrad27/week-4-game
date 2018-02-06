@@ -9,7 +9,6 @@ $(document).ready(function () {
     var greenNum= Math.floor(Math.random()*11+1)
     var redNum= Math.floor(Math.random()*11+1)
     var yellowNum= Math.floor(Math.random()*11+1)
-   
     var userTotal= 0; 
     var wins= 0;
     var losses = 0;
